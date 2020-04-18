@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import BookDetail from "./BookDetail";
-import { BookContext } from '../contexts/BookContext';
+import BookDetail from "components/BookDetail";
+import { BookContext } from 'contexts/BookContext';
 
 const BookList = () => {
     const{books} =  useContext(BookContext);

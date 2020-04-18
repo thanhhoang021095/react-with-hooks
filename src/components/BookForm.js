@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { BookContext } from '../contexts/BookContext';
+import { BookContext } from 'contexts/BookContext';
 
 const NewBookForm = () => {
     const { dispatch } = useContext(BookContext);
